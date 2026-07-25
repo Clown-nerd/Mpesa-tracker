@@ -1,0 +1,6 @@
+{
+  "name": "M-Pesa Tracker",
+  "description": "An offline M-Pesa SMS tracker with smart auto-categorisation and budgets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

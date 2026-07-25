@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "M-Pesa Tracker",
+    "slug": "mpesa-tracker",
+    "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/PLACEHOLDER"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00A86B"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mpesatracker.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00A86B"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.mpesatracker.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.READ_SMS",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}

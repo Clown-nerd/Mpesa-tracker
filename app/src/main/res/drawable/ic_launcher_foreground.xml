@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center of canvas is 54, 54 -->
+    <!-- Wallet base: left=24, top=34, right=84, bottom=74. Width=60, height=40 -->
+    
+    <!-- Money Bill -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,34 L70,34 L66,24 L34,24 Z" />
+    
+    <!-- Wallet Body -->
+    <path
+        android:fillColor="#E8F8F2"
+        android:pathData="M24,38 C24,35.8 25.8,34 28,34 L80,34 C82.2,34 84,35.8 84,38 L84,70 C84,72.2 82.2,74 80,74 L28,74 C25.8,74 24,72.2 24,70 Z" />
+
+    <!-- Flap and Button -->
+    <path
+        android:fillColor="#007A4E"
+        android:pathData="M60,46 L84,46 L84,62 L60,62 C55.6,62 52,58.4 52,54 C52,49.6 55.6,46 60,46 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,54 C62,55.1 61.1,56 60,56 C58.9,56 58,55.1 58,54 C58,52.9 58.9,52 60,52 C61.1,52 62,52.9 62,54 Z" />
+</vector>
